@@ -23,8 +23,7 @@ end
   end
 
   def post_params
-  	param.require(:post).permit(:image, :image_cache)
-  		
+  	params.require(:post).permit(:image, :image_cache)  		
   end
 
 end
